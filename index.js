@@ -32,7 +32,7 @@ const seeUserFaxLines = () => {
 
 console.log(seeUserFaxLines());
 
-// see fax numbers for state code.
+// see fax numbers for state code. throwing an error that i will debug tomorrow!
 
 const seeAreaCodesForState = (initials) => {
   return axios.get(`https://api.hellofax.com/v1/AreaCodes?StateCode=${initials}`)
@@ -41,7 +41,7 @@ const seeAreaCodesForState = (initials) => {
     })
 }
 
-// console.log(seeAreaCodesForState('CA'));
+
 
 // purchase a fax line.
 
